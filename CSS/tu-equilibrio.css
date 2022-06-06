@@ -363,9 +363,16 @@ footer {
     font-size: 1.5em;
     font-weight: bold;
     color: rgb(231, 234, 236);
+}
+
+.circulo-producto-flex{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     padding: 50px;
     background-color: rgba(116, 0, 116, 0.7);
 }
@@ -409,9 +416,6 @@ main section article>h3 {
     align-items: center;
 }
 
-/* Quería hacer que cuando te posicionas arriba de "hamburguesas" o sobre "congelados" haga una transición ampliando los productos correspondientes */
-
-
 
 /* ------------------------------------------------- */
 
@@ -434,6 +438,10 @@ main h3 {
     font-size: 1em;
 }
 
+textarea{
+    height: 40px;
+    width: 40%;
+}
 
 /* Body */
 #grid-areas-contacto {
@@ -514,6 +522,7 @@ footer {
     height: 250px;
     justify-content: center;
     align-items: center;
+    transition: 2s
 }
 
 .iframe-flex:hover {
@@ -522,7 +531,6 @@ footer {
     border-color: 5px solid brown;
     width: 80%;
     height: 70vh;
-    transition: 2s;
 }
 
 ul {
@@ -1047,7 +1055,7 @@ footer {
 
     .header-flex {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: start;
         align-items: center;
         text-align: center;
@@ -1057,7 +1065,7 @@ footer {
     /* Menu */
     .menu-flex {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: center;
         align-items: center;
         margin-right: 25px;
@@ -1080,7 +1088,7 @@ footer {
 
     .section-mision-flex {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -1088,21 +1096,19 @@ footer {
 
     .section-cambio-flex {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
     .main-img-primera {
-        width: 400px;
-        height: 300px;
+        width: 100%;
         margin-bottom: 40px;
     }
 
     .main-img-segunda {
-        width: 400px;
-        height: 300px;
+        width: 100%;
         margin-bottom: 40px;
     }
 
@@ -1117,16 +1123,10 @@ footer {
         font-weight: bolder;
     }
 
-    .producto-titulo-flex h3 {
-        font-size: 1.2em;
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-    }
-
     main section article>h3 {
         text-align: center;
     }
+
 
     .productos-img {
         width: 100px;
@@ -1144,13 +1144,13 @@ footer {
 
     .productos-hamburguesas-flex {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: wrap;
         justify-content: space-around;
     }
 
     .productos-congelados-flex {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: wrap;
         justify-content: space-around;
     }
 

@@ -304,14 +304,15 @@ section article img {
 .main-img-primera {
     border-radius: 5%;
     width: 600px;
-    height: 450px;
+    height: 400px;
     margin-bottom: 40px;
 }
 
 .main-img-segunda {
     border-radius: 5%;
     width: 600px;
-    height: 600px;
+    height: 500px;
+    margin-right: 75px;
 }
 
 
@@ -881,15 +882,16 @@ footer {
     }
 
     .main-img-primera {
-        width: 400px;
+        width: 450px;
         height: 300px;
         margin-bottom: 40px;
     }
 
     .main-img-segunda {
         width: 400px;
-        height: 300px;
+        height: 400px;
         margin-bottom: 40px;
+        margin-right: 0px;
     }
 
     /* ------------------------------------------------- */

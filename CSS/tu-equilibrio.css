@@ -755,7 +755,7 @@ footer {
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .section-tip2-flex div {

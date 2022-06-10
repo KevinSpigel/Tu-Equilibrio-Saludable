@@ -76,31 +76,30 @@
       <div>
         <h2>¿Tenés alguna consulta?</h2>
         <form id="form-order">
-          <p>
-            <label for="name">Nombre y Apellido *</label>
-            <input type="text" name="name" id="name" placeholder="Juan Perez" required>
-          </p>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre y Apellido *</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Juan Perez" required>
+          </div>
 
-          <p>
-            <label for="phone">Teléfono *</label>
-            <input type="Tel" name="phone" id="phone" placeholder="1160571197" required>
-          </p>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Teléfono</label>
+            <input type="Tel" class="form-control" name="phone" id="phone" placeholder="1160571197">
+          </div>
 
-          <p>
-            <label for="email">Email *</label>
-            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required>
-          </p>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email*</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com" required>
+          </div>
 
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+            <input type="text" name="name" class="form-control" id="name">
+          </div>
 
-          <p>
-            <label for="asunto">Asunto</label>
-            <input type="text" name="asunto" id="asunto">
-          </p>
-
-          <p>
-            <label for="descripcion">Descripción *</label>
-            <textarea name="descripcion" id="descripcion"></textarea required>
-      </p>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción*</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          </div>
 
       <div class="campo-obligatorio-p"><p>*Campos Obligatorios.</p></div>
 

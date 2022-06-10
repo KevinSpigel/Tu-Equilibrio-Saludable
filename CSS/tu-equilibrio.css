@@ -572,6 +572,13 @@ ul {
     margin-left: 25px;
 }
 
+#form-order{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: 20px;
+}
+
 .div-botones-formulario {
     display: flex;
     flex-flow: row;
@@ -582,6 +589,7 @@ ul {
 .botones-formulario {
     margin: 10px;
 }
+
 
 /* ------------------------------------------------- */
 
@@ -1058,11 +1066,12 @@ footer {
         height: 70vh;
     }
 
-    /* corregir el hoover */
-
     #form-order p {
-        font-size: 1em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
         text-align: center;
+        font-size: 1em;
     }
 
 }
@@ -1331,11 +1340,12 @@ footer {
         display: none;
     }
 
-    /* corregir el hoover */
-
     #form-order p {
-        font-size: 1em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
         text-align: center;
+        font-size: 1em;
     }
 
 }

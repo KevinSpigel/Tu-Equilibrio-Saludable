@@ -159,11 +159,10 @@ footer {
     grid-area: copyright-grid;
 }
 
-
 .footer-flex {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #DFDFDE;
 }

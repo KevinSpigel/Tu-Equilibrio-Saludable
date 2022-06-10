@@ -572,7 +572,7 @@ ul {
     margin-left: 25px;
 }
 
-#form-order{
+#form-order {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

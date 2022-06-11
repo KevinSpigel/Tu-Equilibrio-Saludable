@@ -126,11 +126,15 @@
       </div>
 
 
-      <div class="div-newsletter-flex">
-        <h4>Newsletter</h4>
-        <div><input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required>
-          <input type="submit" value="Suscribirse">
-        </div>
+      <div class="col-2 div-newsletter-flex">
+        <form>
+          <h4>Newsletter</h4>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="ejemplo@gmail.com">
+            <button class="btn btn-primary" type="button">Suscribirse</button>
+          </div>
+        </form>
       </div>
     </div>
 

@@ -25,12 +25,27 @@
       <p>Hamburguesas vegetarianas y veganas</p>
     </div>
 
-    <nav class="menu-flex">
+    <nav class="menu-flex-desk">
       <span><a class="a" href="index.html">Home</a></span>
       <span><a class="a" href="productos.html">Productos</a></span>
       <span><a class="a" href="quienes-somos.html">¿Quiénes somos?</a></span>
       <span><a class="a" href="tips-saludables.html">Tips Saludables</a></span>
       <span><a class="a" href="contacto.html">Contacto</a></span>
+    </nav>
+
+    <nav class="menu-flex-tablet">
+      <div class="dropdown">
+        <button class="btn a-hero border-radius" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+          aria-expanded="false">☰
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item a-hero" href="index.html">Home</a></li>
+          <li><a class="dropdown-item a-hero" href="productos.html">Productos</a></li>
+          <li><a class="dropdown-item a-hero" href="quienes-somos.html">¿Quiénes somos?</a></li>
+          <li><a class="dropdown-item a-hero" href="tips-saludables.html">Tips Saludables</a></li>
+          <li><a class="dropdown-item a-hero" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
     </nav>
 
   </header>
@@ -115,7 +130,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>

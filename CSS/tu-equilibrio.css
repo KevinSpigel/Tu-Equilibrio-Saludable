@@ -27,7 +27,9 @@ body {
     height: 100vh;
 }
 
-
+p{
+    margin-bottom: 0px;
+}
 
 /* RESPONSIVE DESIGN */
 
@@ -1148,6 +1150,10 @@ footer {
 
     .menu-flex-smart {
         display: flex;
+    }
+
+    nav {
+        margin-top: 0px;
     }
 
     ul {

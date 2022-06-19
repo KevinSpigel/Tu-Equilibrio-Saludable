@@ -1,0 +1,88 @@
+/* CUESTIONES PARTICULARES DEL "INDEX" */
+
+#grid-areas-index {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "menu "
+        "main"
+        "footer";
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-row-gap: 15px;
+}
+
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: menu;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* Main */
+
+main {
+    h2 {
+        text-align: center;
+    }
+
+    .main-flex {
+        display: flex;
+        flex-flow: column;
+    }
+
+
+    .section-mision-flex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .section-mision-flex div {
+        margin: 40px;
+    }
+
+
+    .section-cambio-flex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .section-cambio-flex div {
+        margin: 40px;
+    }
+
+    section article img {
+        box-shadow: 2px 2px 2px grey;
+    }
+
+    .main-img-primera {
+        border-radius: 5%;
+        width: 600px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+
+    .main-img-segunda {
+        border-radius: 5%;
+        width: 600px;
+        height: 500px;
+        margin-right: 75px;
+    }
+}

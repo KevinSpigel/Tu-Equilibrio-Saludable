@@ -1,0 +1,102 @@
+/* Footer */
+
+footer {
+    background-color: #DFDFDE;
+    border: solid 2px black;
+
+
+
+    .footer-icono {
+        width: 40px;
+        height: 40px;
+    }
+
+    #grid-areas-footer {
+        display: grid;
+        grid-template-areas:
+            "boton-subir-grid"
+            "cuerpo-footer-grid"
+            "copyright-grid";
+        grid-template-columns: 1;
+        grid-template-rows: 35px;
+        grid-row-gap: 15px;
+    }
+
+    .boton-subir-grid {
+        grid-area: boton-subir-grid;
+    }
+
+    .cuerpo-footer-grid {
+        grid-area: cuerpo-footer-grid;
+    }
+
+    .copyright-grid {
+        grid-area: copyright-grid;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DFDFDE;
+    }
+
+    .cuerpo-footer-grid p {
+        font-size: small;
+    }
+
+    .p-footer {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        font-size: medium;
+        color: rgb(231, 234, 236);
+        background-color: rgb(116, 0, 116);
+    }
+
+    .div-contacto-mail {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-contacto-wp {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -85px;
+    }
+
+    .div-contacto-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-newsletter-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-iconos-redes-img {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .div-boton-subir-flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: right;
+        align-items: center;
+        margin-top: 25px;
+    }
+}

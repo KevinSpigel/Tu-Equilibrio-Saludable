@@ -1,0 +1,19 @@
+{
+  "name": "tu-equilibrio-saludable-spigel-kevin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSpigel/Tu-Equilibrio-Saludable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSpigel/Tu-Equilibrio-Saludable/issues"
+  },
+  "homepage": "https://github.com/KevinSpigel/Tu-Equilibrio-Saludable#readme"
+}

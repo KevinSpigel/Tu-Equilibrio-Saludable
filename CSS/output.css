@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-/* font-family: 'Source Sans Pro', sans-serif; */
 * {
   margin: 0;
   padding: 0;
@@ -475,14 +474,15 @@ header h1 {
   font-size: 4em;
   text-shadow: 1px 1px 1px;
 }
-header .header-flex {
+
+.header-flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: start;
   align-items: center;
   background-color: #DFDFDE;
 }
-header .header-flex img {
+.header-flex img {
   margin: 20px;
   margin-left: 20px;
 }
@@ -527,37 +527,40 @@ footer {
   background-color: #DFDFDE;
   border: solid 2px black;
 }
-footer .footer-icono {
-  width: 40px;
-  height: 40px;
-}
-footer #grid-areas-footer {
+
+#grid-areas-footer {
   display: grid;
   grid-template-areas: "boton-subir-grid" "cuerpo-footer-grid" "copyright-grid";
   grid-template-columns: 1;
   grid-template-rows: 35px;
   grid-row-gap: 15px;
 }
-footer .boton-subir-grid {
+
+.boton-subir-grid {
   grid-area: boton-subir-grid;
 }
-footer .cuerpo-footer-grid {
+
+.cuerpo-footer-grid {
   grid-area: cuerpo-footer-grid;
 }
-footer .copyright-grid {
+
+.copyright-grid {
   grid-area: copyright-grid;
 }
-footer .footer-flex {
+
+.footer-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
   background-color: #DFDFDE;
 }
-footer .cuerpo-footer-grid p {
+
+.cuerpo-footer-grid p {
   font-size: small;
 }
-footer .p-footer {
+
+.p-footer {
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -565,43 +568,54 @@ footer .p-footer {
   color: rgb(231, 234, 236);
   background-color: rgb(116, 0, 116);
 }
-footer .div-contacto-mail {
+
+.div-contacto-mail {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 }
-footer .div-contacto-wp {
+
+.div-contacto-wp {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   margin-left: -85px;
 }
-footer .div-contacto-flex {
+
+.div-contacto-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-footer .div-newsletter-flex {
+
+.div-newsletter-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-footer .div-iconos-redes-img {
+
+.div-iconos-redes-img {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-footer .div-boton-subir-flex {
+
+.div-boton-subir-flex {
   display: flex;
   flex-flow: row;
   justify-content: right;
   align-items: center;
   margin-top: 25px;
+}
+
+.footer-icono {
+  width: 40px;
+  height: 40px;
 }
 
 #grid-areas-index {
@@ -671,7 +685,6 @@ main .main-img-segunda {
   margin-right: 75px;
 }
 
-/* CUESTIONES PARTICULARES DE "PRODUCTOS" */
 #grid-areas-productos {
   display: grid;
   grid-template-areas: "header" "menu" "main" "footer";
@@ -696,7 +709,6 @@ footer {
   grid-area: footer;
 }
 
-/* Main */
 main .producto-flex {
   display: flex;
   flex-flow: column;

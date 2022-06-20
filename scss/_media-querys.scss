@@ -46,223 +46,222 @@
                 }
             }
         }
+    }
+
+    .btn {
+        padding: 5px 25px;
+    }
+
+    .dropdown-menu {
+        padding: 0px;
+    }
+
+    /*Footer*/
+
+    .footer-flex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DFDFDE;
+    }
+
+    .div-contacto-mail {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-contacto-wp {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .div-contacto-flex {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-top: 35px;
+    }
+
+    .div-newsletter-flex {
+        display: none;
+    }
+
+    .div-iconos-redes-img {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-        .btn {
-            padding: 5px 25px;
-        }
+    .div-boton-subir-flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: right;
+        align-items: center;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
 
-        .dropdown-menu {
-            padding: 0px;
-        }
 
-        /*Footer*/
+    /*CUESTIONES PARTICULARES DEL "INDEX"*/
 
-        .footer-flex {
+    /*Main*/
+
+    main {
+        .section-mision-flex {
             display: flex;
-            flex-flow: row nowrap;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #DFDFDE;
-        }
-
-        .div-contacto-mail {
-            display: flex;
-            flex-flow: column wrap;
+            flex-flow: row wrap;
             justify-content: center;
             align-items: center;
-        }
+            text-align: center;
 
-        .div-contacto-wp {
-            display: flex;
-            flex-flow: column wrap;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-        }
-
-        .div-contacto-flex {
-            display: flex;
-            flex-flow: column wrap;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-            margin-top: 35px;
-        }
-
-        .div-newsletter-flex {
-            display: none;
-        }
-
-        .div-iconos-redes-img {
-            display: flex;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-        .div-boton-subir-flex {
-            display: flex;
-            flex-flow: row;
-            justify-content: right;
-            align-items: center;
-            margin-top: 25px;
-            margin-right: 25px;
-        }
-
-
-        /*CUESTIONES PARTICULARES DEL "INDEX"*/
-
-        /*Main*/
-
-        main {
-            .section-mision-flex {
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-
-                div {
-                    margin: 40px;
-                }
-            }
-
-            .section-cambio-flex {
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-
-                div {
-                    margin: 40px;
-                }
-            }
-
-            .main-img-primera {
-                width: 450px;
-                height: 300px;
-                margin-bottom: 40px;
-            }
-
-            .main-img-segunda {
-                width: 400px;
-                height: 400px;
-                margin-bottom: 40px;
-                margin-right: 0px;
-            }
-        }
-
-
-
-        /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
-
-        /*Main*/
-
-
-        .producto-flex {
             div {
-                h2 {
-                    font-size: 2.5em;
-                    font-weight: bolder;
-                }
+                margin: 40px;
             }
         }
 
-        .producto-titulo-flex {
-            h3 {
-                font-size: 1.2em;
-                border-radius: 50%;
-            }
-        }
-
-        main {
-            section {
-                article {
-                    >h3 {
-                        text-align: center;
-                    }
-                }
-            }
-        }
-
-        .productos-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 5%;
-        }
-
-        .producto-flex {
+        .section-cambio-flex {
             display: flex;
-            flex-flow: column;
+            flex-flow: row wrap;
             justify-content: center;
-            row-gap: 50px;
-            border: solid 2px black;
+            align-items: center;
+            text-align: center;
+
+            div {
+                margin: 40px;
+            }
         }
 
-        .productos-hamburguesas-flex {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
+        .main-img-primera {
+            width: 450px;
+            height: 300px;
+            margin-bottom: 40px;
         }
 
-        .productos-congelados-flex {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
+        .main-img-segunda {
+            width: 400px;
+            height: 400px;
+            margin-bottom: 40px;
+            margin-right: 0px;
         }
     }
 
-    /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+
+
+    /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
+
+    /*Main*/
+
+
+    .producto-flex {
+        div {
+            h2 {
+                font-size: 2.5em;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .producto-titulo-flex {
+        h3 {
+            font-size: 1.2em;
+            border-radius: 50%;
+        }
+    }
 
     main {
-
-        .div-contacto-conocenos-flex {
-            flex-flow: column wrap;
-        }
-
-        .div-contacto-mail-conocenos-flex {
-            flex-flow: row wrap;
-        }
-
-        .div-contacto-wp-conocenos-flex {
-            flex-flow: row wrap;
-            margin-bottom: 30px;
-        }
-
-        .div-nuestros-flex {
-            flex-flow: column wrap;
-            margin-bottom: 30px;
-        }
-
-        .donde-estamos-flex {
-            margin-bottom: 30px;
-        }
-
-        .iframe-flex {
-            width: 250px;
-            height: 150px;
-
-            &:hover {
-                border-radius: 5%;
-                box-shadow: 2px 2px 2px grey;
-                border-color: 5px solid brown;
-                width: 80%;
-                height: 70vh;
+        section {
+            article {
+                >h3 {
+                    text-align: center;
+                }
             }
         }
+    }
+
+    .productos-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 5%;
+    }
+
+    .producto-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        row-gap: 50px;
+        border: solid 2px black;
+    }
+
+    .productos-hamburguesas-flex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .productos-congelados-flex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
+
+/*CUESTIONES PARTICULARES DE "CONTACTO"*/
+
+main {
+
+    .div-contacto-conocenos-flex {
+        flex-flow: column wrap;
+    }
+
+    .div-contacto-mail-conocenos-flex {
+        flex-flow: row wrap;
+    }
+
+    .div-contacto-wp-conocenos-flex {
+        flex-flow: row wrap;
+        margin-bottom: 30px;
+    }
+
+    .div-nuestros-flex {
+        flex-flow: column wrap;
+        margin-bottom: 30px;
+    }
+
+    .donde-estamos-flex {
+        margin-bottom: 30px;
+    }
+
+    .iframe-flex {
+        width: 250px;
+        height: 150px;
+
+        &:hover {
+            border-radius: 5%;
+            box-shadow: 2px 2px 2px grey;
+            border-color: 5px solid brown;
+            width: 80%;
+            height: 70vh;
+        }
+    }
 
 
-        #form-order {
-            p {
-                display: flex;
-                flex-flow: column wrap;
-                justify-content: center;
-                text-align: center;
-                font-size: 1em;
-            }
+    #form-order {
+        p {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            text-align: center;
+            font-size: 1em;
         }
     }
 
@@ -314,7 +313,7 @@
 
     /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
 
-    .main-tip-flex {
+    main {
         .main-img-tip {
             border-radius: 5%;
             width: 400px;
@@ -339,8 +338,8 @@
             text-align: center;
         }
     }
-}
 
+}
 
 
 /*SMARTPHONE*/
@@ -620,4 +619,7 @@
             text-align: center;
         }
     }
+
+
+
 }

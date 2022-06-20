@@ -1,4 +1,4 @@
-// CUESTIONES PARTICULARES DE "PRODUCTOS"
+/*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
 
 #grid-areas-productos {
     display: grid;
@@ -29,7 +29,7 @@ footer {
     grid-area: footer;
 }
 
-// Main
+/*Main*/
 
 main {
     .producto-flex {
@@ -63,7 +63,7 @@ main {
     }
 
 
-//Acá se puede hacer un bucle??
+//VER DE HACER UN BUCLE
 
     .hamburguesa1:hover {
         transform: scale(1.3);

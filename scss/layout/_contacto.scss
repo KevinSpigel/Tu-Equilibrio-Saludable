@@ -29,98 +29,99 @@ footer {
 }
 
 
-main{
-.campo-obligatorio-p {
-    font-style: italic;
-    font-size: small;
-}
+main {
+    .campo-obligatorio-p {
+        font-style: italic;
+        font-size: small;
+    }
 
-ul {
-    font-size: 1em
-}
+    ul {
+        font-size: 1em
+    }
 
-h3 {
-    font-size: 1.5em
-}
-
-#form-order p {
-    font-size: 1em;
-}
+    h3 {
+        font-size: 1.5em
+    }
 
 
-.div-contacto-conocenos-flex {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
+    .div-contacto-conocenos-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.div-contacto-mail-conocenos-flex {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
+    .div-contacto-mail-conocenos-flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
 
-.div-contacto-wp-conocenos-flex {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: -153px;
-}
+    .div-contacto-wp-conocenos-flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -153px;
+    }
 
-.div-nuestros-flex {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-}
+    .div-nuestros-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
 
-.donde-estamos-flex {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
+    .donde-estamos-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.iframe-flex {
-    display: flex;
-    flex-flow: row;
-    border-radius: 5%;
-    box-shadow: 2px 2px 2px grey;
-    border-color: 5px solid brown;
-    width: 400px;
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-    transition: 2s;
-        &:hover {
+    .iframe-flex {
+        display: flex;
+        flex-flow: row;
         border-radius: 5%;
         box-shadow: 2px 2px 2px grey;
         border-color: 5px solid brown;
-        width: 80%;
-        height: 70vh;
+        width: 400px;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+
+        &:hover {
+            border-radius: 5%;
+            box-shadow: 2px 2px 2px grey;
+            border-color: 5px solid brown;
+            width: 80%;
+            height: 70vh;
+        }
     }
-}
 
-#form-order {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    margin-left: 20px;
-    width: 55%
-}
+    #form-order {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin-left: 20px;
+        width: 55%;
 
-.div-botones-formulario {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
+        p {
+            font-size: 1em;
+        }
+    }
 
-.botones-formulario {
-    margin: 10px;
-}
+    .div-botones-formulario {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botones-formulario {
+        margin: 10px;
+    }
 }

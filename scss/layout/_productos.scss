@@ -32,17 +32,38 @@ footer {
 /* Main */
 
 main {
-    .producto-flex div h2 {
-        font-size: 2.5em;
-        font-weight: bolder;
-        margin-bottom: -50px;
+    .producto-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        row-gap: 50px;
+        border: solid 2px black;
+
+        div {
+            h2 {
+                font-size: 2.5em;
+                font-weight: bolder;
+                margin-bottom: -50px;
+            }
+        }
     }
 
-    .producto-titulo-flex h3 {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: rgb(231, 234, 236);
+
+    .producto-titulo-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: rgb(231, 234, 236);
+        }
     }
+
+
+    /*Acá se podría hacer un bucle???*/
 
     .hamburguesa1:hover {
         transform: scale(1.3);
@@ -89,8 +110,12 @@ main {
         background-color: rgba(116, 0, 116, 0.7);
     }
 
-    section article>h3 {
-        text-align: center;
+    section {
+        article {
+            >h3 {
+                text-align: center;
+            }
+        }
     }
 
 
@@ -98,14 +123,6 @@ main {
         width: 200px;
         height: 200px;
         border-radius: 5%;
-    }
-
-    .producto-flex {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        row-gap: 50px;
-        border: solid 2px black;
     }
 
     .productos-hamburguesas-flex {
@@ -119,12 +136,5 @@ main {
         flex-flow: row nowrap;
         justify-content: space-evenly;
 
-    }
-
-    .producto-titulo-flex {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
     }
 }

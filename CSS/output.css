@@ -350,6 +350,9 @@ main #form-order p {
   }
   /* ------------------------------------------------- */
   /* CUESTIONES PARTICULARES DE "PRODUCTOS" */
+  main {
+    /*Acá se puede hacer un bucle?*/
+  }
   main .producto-flex div h2 {
     font-size: 2.5em;
     font-weight: bolder;
@@ -734,10 +737,26 @@ footer {
 }
 
 /* Main */
+main {
+  /*Acá se podría hacer un bucle???*/
+}
+main .producto-flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  row-gap: 50px;
+  border: solid 2px black;
+}
 main .producto-flex div h2 {
   font-size: 2.5em;
   font-weight: bolder;
   margin-bottom: -50px;
+}
+main .producto-titulo-flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 main .producto-titulo-flex h3 {
   font-size: 1.5em;
@@ -788,13 +807,6 @@ main .productos-img {
   height: 200px;
   border-radius: 5%;
 }
-main .producto-flex {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  row-gap: 50px;
-  border: solid 2px black;
-}
 main .productos-hamburguesas-flex {
   display: flex;
   flex-flow: row nowrap;
@@ -804,12 +816,6 @@ main .productos-congelados-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-}
-main .producto-titulo-flex {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?" */
@@ -988,9 +994,6 @@ main ul {
 main h3 {
   font-size: 1.5em;
 }
-main #form-order p {
-  font-size: 1em;
-}
 main .div-contacto-conocenos-flex {
   display: flex;
   flex-flow: column;
@@ -1048,6 +1051,9 @@ main #form-order {
   justify-content: center;
   margin-left: 20px;
   width: 55%;
+}
+main #form-order p {
+  font-size: 1em;
 }
 main .div-botones-formulario {
   display: flex;

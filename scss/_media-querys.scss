@@ -35,12 +35,18 @@
         border-radius: 15%;
     }
 
-    nav div button::selection {
-        text-decoration: none;
-        font-size: 1.3em;
-        font-weight: bold;
-        color: rgb(231, 234, 236);
-        background-color: rgba(116, 0, 116, 0.7);
+    nav {
+        div {
+            button {
+                &::selection {
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    color: rgb(231, 234, 236);
+                    background-color: rgba(116, 0, 116, 0.7);
+                }
+            }
+        }
     }
 
     .btn {
@@ -175,8 +181,10 @@
         }
 
         section {
-            article>h3 {
-                text-align: center;
+            article {
+                >h3 {
+                    text-align: center;
+                }
             }
         }
     }
@@ -429,16 +437,24 @@ main {
 
     main {
 
-        .producto-flex div h2 {
-            font-size: 2.5em;
-            font-weight: bolder;
+        .producto-flex {
+            div {
+                h2 {
+                    font-size: 2.5em;
+                    font-weight: bolder;
+                }
+            }
         }
 
         section {
-            article>h3 {
-                text-align: center;
+            article {
+                >h3 {
+                    text-align: center;
+                }
             }
         }
+
+/*Acá se puede hacer un bucle?*/
 
         .hamburguesa1:hover {
             transform: none;
@@ -577,7 +593,7 @@ main {
 
     /* ------------------------------------------------- */
 
-    
+
     /* CUESTIONES PARTICULARES DE "CONTACTO" */
 
     main {

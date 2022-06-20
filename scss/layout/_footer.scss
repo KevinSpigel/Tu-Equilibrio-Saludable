@@ -5,7 +5,6 @@ footer {
     border: solid 2px black;
 
 
-
     .footer-icono {
         width: 40px;
         height: 40px;
@@ -42,8 +41,10 @@ footer {
         background-color: #DFDFDE;
     }
 
-    .cuerpo-footer-grid p {
-        font-size: small;
+    .cuerpo-footer-grid {
+        p {
+            font-size: small;
+        }
     }
 
     .p-footer {

@@ -5,6 +5,11 @@ footer {
     border: solid 2px black;
 }
 
+.footer-icono {
+    width: 40px;
+    height: 40px;
+}
+
 #grid-areas-footer {
     display: grid;
     grid-template-areas:
@@ -96,7 +101,3 @@ footer {
     margin-top: 25px;
 }
 
-.footer-icono {
-    width: 40px;
-    height: 40px;
-}

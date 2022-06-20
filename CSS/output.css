@@ -105,6 +105,11 @@ footer {
   border: solid 2px black;
 }
 
+.footer-icono {
+  width: 40px;
+  height: 40px;
+}
+
 #grid-areas-footer {
   display: grid;
   grid-template-areas: "boton-subir-grid" "cuerpo-footer-grid" "copyright-grid";
@@ -188,11 +193,6 @@ footer {
   justify-content: right;
   align-items: center;
   margin-top: 25px;
-}
-
-.footer-icono {
-  width: 40px;
-  height: 40px;
 }
 
 /*CUESTIONES PARTICULARES DEL "INDEX"*/
@@ -290,55 +290,46 @@ footer {
 }
 
 /*Main*/
-main .producto-flex {
+.producto-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   row-gap: 50px;
   border: solid 2px black;
 }
-main .producto-flex div h2 {
+.producto-flex div h2 {
   font-size: 2.5em;
   font-weight: bolder;
   margin-bottom: -50px;
 }
-main .producto-titulo-flex {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-main .producto-titulo-flex h3 {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: rgb(231, 234, 236);
-}
-main .hamburguesa1:hover {
+.producto-flex .hamburguesa1:hover {
   transform: scale(1.3);
 }
-main .hamburguesa2:hover {
+.producto-flex .hamburguesa2:hover {
   transform: scale(1.3);
   margin-top: 30px;
 }
-main .hamburguesa3:hover {
+.producto-flex .hamburguesa3:hover {
+  transform: scale(1.3);
+  margin-top: 30px;
+}
+.producto-flex .hamburguesa4:hover {
+  transform: scale(1.3);
+  margin-top: 30px;
+}
+.producto-flex .congelado1:hover {
   transform: scale(1.3);
 }
-main .hamburguesa4:hover {
+.producto-flex .congelado2:hover {
   transform: scale(1.3);
 }
-main .congelado1:hover {
+.producto-flex .congelado3:hover {
   transform: scale(1.3);
 }
-main .congelado2:hover {
+.producto-flex .congelado4:hover {
   transform: scale(1.3);
 }
-main .congelado3:hover {
-  transform: scale(1.3);
-}
-main .congelado4:hover {
-  transform: scale(1.3);
-}
-main .circulo-producto-flex {
+.producto-flex .circulo-producto-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -349,164 +340,34 @@ main .circulo-producto-flex {
   padding: 50px;
   background-color: rgba(116, 0, 116, 0.7);
 }
-main section article > h3 {
+.producto-flex main section article > h3 {
   text-align: center;
 }
-main .productos-img {
+.producto-flex .productos-img {
   width: 200px;
   height: 200px;
   border-radius: 5%;
 }
-main .productos-hamburguesas-flex {
+.producto-flex .productos-hamburguesas-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
 }
-main .productos-congelados-flex {
+.producto-flex .productos-congelados-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
 }
-
-/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
-#grid-areas-quienes-somos {
-  display: grid;
-  grid-template-areas: "header" "menu" "main" "footer";
-  grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
-  grid-row-gap: 0px;
-}
-
-header {
-  grid-area: header;
-}
-
-nav {
-  grid-area: menu;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
-
-/*Main*/
-main .hero {
+.producto-flex .producto-titulo-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: calc(100vh - 200px);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
-main .hero h2 {
-  color: white;
-  font-size: 60px;
-  font-weight: 900;
-  color: rgb(231, 234, 236);
-  margin-bottom: 10px;
-}
-main .a-hero {
-  text-decoration: none;
-  font-size: 1.3em;
+.producto-flex .producto-titulo-flex h3 {
+  font-size: 1.5em;
   font-weight: bold;
   color: rgb(231, 234, 236);
-  background-color: rgba(116, 0, 116, 0.7);
-  border-radius: 10%;
-  padding: 5px;
-}
-main .a-hero:hover {
-  color: rgb(116, 0, 116);
-  background-color: rgb(231, 234, 236);
-}
-main section .section-img-founders {
-  box-shadow: 2px 2px 2px grey;
-  border-radius: 50%;
-  width: 300px;
-  height: 225px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-main section .section-img-founders-flex {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-main .div-texto-presentacion {
-  text-align: center;
-}
-
-/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-#grid-areas-tips {
-  display: grid;
-  grid-template-areas: "header" "menu " "main" "footer";
-  grid-template-columns: 1;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
-  grid-row-gap: 15px;
-}
-
-header {
-  grid-area: header;
-}
-
-nav {
-  grid-area: menu;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
-
-main .div-texto-tips {
-  text-align: center;
-  margin-bottom: 20px;
-}
-main .main-flex {
-  display: flex;
-  flex-flow: column;
-}
-main .main-img-tip {
-  border-radius: 5%;
-  width: 600px;
-  height: 450px;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-main .section-tip1-flex {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 20px;
-}
-main .section-tip1-flex div {
-  margin: 40px;
-}
-main .section-tip2-flex {
-  display: flex;
-  flex-flow: row-reverse nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 20px;
-}
-main .section-tip2-flex div {
-  margin: 40px;
 }
 
 /*CUESTIONES PARTICULARES DE "CONTACTO"*/
@@ -615,6 +476,150 @@ main .botones-formulario {
   margin: 10px;
 }
 
+/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
+#grid-areas-quienes-somos {
+  display: grid;
+  grid-template-areas: "header" "menu" "main" "footer";
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  grid-row-gap: 0px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: menu;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/*Main*/
+main .hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 200px);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main .hero h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(231, 234, 236);
+  margin-bottom: 10px;
+}
+main .hero .a-hero {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(231, 234, 236);
+  background-color: rgba(116, 0, 116, 0.7);
+  border-radius: 10%;
+  padding: 5px;
+}
+main .hero .a-hero:hover {
+  color: rgb(116, 0, 116);
+  background-color: rgb(231, 234, 236);
+}
+main .section-img-founders {
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 50%;
+  width: 300px;
+  height: 225px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-img-founders-flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.div-texto-presentacion {
+  text-align: center;
+}
+
+/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
+#grid-areas-tips {
+  display: grid;
+  grid-template-areas: "header" "menu " "main" "footer";
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-row-gap: 15px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: menu;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.div-texto-tips {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-tip-flex {
+  display: flex;
+  flex-flow: column;
+}
+.main-tip-flex .section-tip1-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.main-tip-flex .section-tip1-flex div {
+  margin: 40px;
+}
+.main-tip-flex .main-img-tip {
+  border-radius: 5%;
+  width: 600px;
+  height: 450px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.main-tip-flex .section-tip2-flex {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.main-tip-flex .section-tip2-flex div {
+  margin: 40px;
+}
+
 /*TABLET*/
 @media (min-width: 481px) and (max-width: 1023px) {
   /*Header*/
@@ -643,6 +648,13 @@ main .botones-formulario {
   .border-radius {
     border-radius: 15%;
   }
+  nav {
+    /*Footer*/
+    /*CUESTIONES PARTICULARES DEL "INDEX"*/
+    /*Main*/
+    /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
+    /*Main*/
+  }
   nav div button::selection {
     text-decoration: none;
     font-size: 1.3em;
@@ -650,34 +662,33 @@ main .botones-formulario {
     color: rgb(231, 234, 236);
     background-color: rgba(116, 0, 116, 0.7);
   }
-  .btn {
+  nav .btn {
     padding: 5px 25px;
   }
-  .dropdown-menu {
+  nav .dropdown-menu {
     padding: 0px;
   }
-  /*Footer*/
-  .footer-flex {
+  nav .footer-flex {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     background-color: #DFDFDE;
   }
-  .div-contacto-mail {
+  nav .div-contacto-mail {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
   }
-  .div-contacto-wp {
+  nav .div-contacto-wp {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     margin: 10px;
   }
-  .div-contacto-flex {
+  nav .div-contacto-flex {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -685,16 +696,16 @@ main .botones-formulario {
     margin: 10px;
     margin-top: 35px;
   }
-  .div-newsletter-flex {
+  nav .div-newsletter-flex {
     display: none;
   }
-  .div-iconos-redes-img {
+  nav .div-iconos-redes-img {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
   }
-  .div-boton-subir-flex {
+  nav .div-boton-subir-flex {
     display: flex;
     flex-flow: row;
     justify-content: right;
@@ -702,171 +713,164 @@ main .botones-formulario {
     margin-top: 25px;
     margin-right: 25px;
   }
-  /*CUESTIONES PARTICULARES DEL "INDEX"*/
-  /*Main*/
-  main .section-mision-flex {
+  nav main .section-mision-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-mision-flex div {
+  nav main .section-mision-flex div {
     margin: 40px;
   }
-  main .section-cambio-flex {
+  nav main .section-cambio-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-cambio-flex div {
+  nav main .section-cambio-flex div {
     margin: 40px;
   }
-  main .main-img-primera {
+  nav main .main-img-primera {
     width: 450px;
     height: 300px;
     margin-bottom: 40px;
   }
-  main .main-img-segunda {
+  nav main .main-img-segunda {
     width: 400px;
     height: 400px;
     margin-bottom: 40px;
     margin-right: 0px;
   }
-  /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
-  /*Main*/
-  .producto-flex div h2 {
+  nav .producto-flex div h2 {
     font-size: 2.5em;
     font-weight: bolder;
   }
-  .producto-titulo-flex h3 {
+  nav .producto-titulo-flex h3 {
     font-size: 1.2em;
     border-radius: 50%;
   }
-  main section article > h3 {
+  nav main section article > h3 {
     text-align: center;
   }
-  .productos-img {
+  nav .productos-img {
     width: 100px;
     height: 100px;
     border-radius: 5%;
   }
-  .producto-flex {
+  nav .producto-flex {
     display: flex;
     flex-flow: column;
     justify-content: center;
     row-gap: 50px;
     border: solid 2px black;
   }
-  .productos-hamburguesas-flex {
+  nav .productos-hamburguesas-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
-  .productos-congelados-flex {
+  nav .productos-congelados-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
   }
+  /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+  main .div-contacto-conocenos-flex {
+    flex-flow: column wrap;
+  }
+  main .div-contacto-mail-conocenos-flex {
+    flex-flow: row wrap;
+  }
+  main .div-contacto-wp-conocenos-flex {
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+  }
+  main .div-nuestros-flex {
+    flex-flow: column wrap;
+    margin-bottom: 30px;
+  }
+  main .donde-estamos-flex {
+    margin-bottom: 30px;
+  }
+  main .iframe-flex {
+    width: 250px;
+    height: 150px;
+  }
+  main .iframe-flex:hover {
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px grey;
+    border-color: 5px solid brown;
+    width: 80%;
+    height: 70vh;
+  }
+  main #form-order p {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+  }
+  /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
+  /*Main*/
+  main .hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 273px);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  main .hero h2 {
+    color: white;
+    font-size: 40px;
+  }
+  main .a-hero {
+    font-size: 1em;
+  }
+  main .section-img-founders {
+    width: 200px;
+    height: 200px;
+  }
+  main .section-img-founders-flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .div-texto-presentacion {
+    text-align: center;
+  }
+  /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
+  .main-tip-flex .main-img-tip {
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .main-tip-flex .section-tip1-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main-tip-flex .section-tip2-flex {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
-/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
-/*Main*/
-main .hero {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: calc(100vh - 273px);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-main .hero h2 {
-  color: white;
-  font-size: 40px;
-}
-main .a-hero {
-  font-size: 1em;
-}
-main .section-img-founders {
-  width: 200px;
-  height: 200px;
-}
-main .section-img-founders-flex {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  align-items: center;
-}
-main .div-texto-presentacion {
-  text-align: center;
-}
-
-/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-main .main-img-tip {
-  border-radius: 5%;
-  width: 400px;
-  height: 300px;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-main .section-tip1-flex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-main .section-tip2-flex {
-  display: flex;
-  flex-flow: row-reverse wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/*CUESTIONES PARTICULARES DE "CONTACTO"*/
-main .div-contacto-conocenos-flex {
-  flex-flow: column wrap;
-}
-main .div-contacto-mail-conocenos-flex {
-  flex-flow: row wrap;
-}
-main .div-contacto-wp-conocenos-flex {
-  flex-flow: row wrap;
-  margin-bottom: 30px;
-}
-main .div-nuestros-flex {
-  flex-flow: column wrap;
-  margin-bottom: 30px;
-}
-main .donde-estamos-flex {
-  margin-bottom: 30px;
-}
-main .iframe-flex {
-  width: 250px;
-  height: 150px;
-}
-main .iframe-flex:hover {
-  border-radius: 5%;
-  box-shadow: 2px 2px 2px grey;
-  border-color: 5px solid brown;
-  width: 80%;
-  height: 70vh;
-}
-main #form-order p {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  text-align: center;
-  font-size: 1em;
-}
-
 /*SMARTPHONE*/
 @media (max-width: 480px) {
   /*Header*/
@@ -975,6 +979,38 @@ main #form-order p {
     flex-flow: wrap;
     justify-content: space-around;
   }
+  /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+  main .div-contacto-conocenos-flex {
+    flex-flow: column wrap;
+  }
+  main .div-contacto-mail-conocenos-flex {
+    flex-flow: row wrap;
+  }
+  main .div-contacto-wp-conocenos-flex {
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+  }
+  main .div-nuestros-flex {
+    flex-flow: column wrap;
+    margin-bottom: 30px;
+  }
+  main .donde-estamos-flex {
+    margin-bottom: 30px;
+  }
+  main .iframe-flex {
+    width: 250px;
+    height: 150px;
+  }
+  main .iframe-flex:hover {
+    display: none;
+  }
+  main #form-order p {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+  }
   /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
   main .hero {
     display: flex;
@@ -1030,38 +1066,6 @@ main #form-order p {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  /*CUESTIONES PARTICULARES DE "CONTACTO"*/
-  main .div-contacto-conocenos-flex {
-    flex-flow: column wrap;
-  }
-  main .div-contacto-mail-conocenos-flex {
-    flex-flow: row wrap;
-  }
-  main .div-contacto-wp-conocenos-flex {
-    flex-flow: row wrap;
-    margin-bottom: 30px;
-  }
-  main .div-nuestros-flex {
-    flex-flow: column wrap;
-    margin-bottom: 30px;
-  }
-  main .donde-estamos-flex {
-    margin-bottom: 30px;
-  }
-  main .iframe-flex {
-    width: 250px;
-    height: 150px;
-  }
-  main .iframe-flex:hover {
-    display: none;
-  }
-  main #form-order p {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;
-    font-size: 1em;
   }
 }
 

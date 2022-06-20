@@ -31,71 +31,74 @@ footer {
 
 /*Main*/
 
-main {
-    .producto-flex {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        row-gap: 50px;
-        border: solid 2px black;
 
-        div {
-            h2 {
-                font-size: 2.5em;
-                font-weight: bolder;
-                margin-bottom: -50px;
-            }
+.producto-flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    row-gap: 50px;
+    border: solid 2px black;
+
+    div {
+        h2 {
+            font-size: 2.5em;
+            font-weight: bolder;
+            margin-bottom: -50px;
         }
     }
 
 
-    .producto-titulo-flex {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+    //VER DE HACER UN BUCLE
 
-        h3 {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: rgb(231, 234, 236);
+    .hamburguesa1 {
+        &:hover {
+            transform: scale(1.3);
         }
     }
 
-
-//VER DE HACER UN BUCLE
-
-    .hamburguesa1:hover {
-        transform: scale(1.3);
+    .hamburguesa2 {
+        &:hover {
+            transform: scale(1.3);
+            margin-top: 30px;
+        }
     }
 
-    .hamburguesa2:hover {
-        transform: scale(1.3);
-        margin-top: 30px;
+    .hamburguesa3 {
+        &:hover {
+            transform: scale(1.3);
+            margin-top: 30px;
+        }
     }
 
-    .hamburguesa3:hover {
-        transform: scale(1.3);
+    .hamburguesa4 {
+        &:hover {
+            transform: scale(1.3);
+            margin-top: 30px;
+        }
     }
 
-    .hamburguesa4:hover {
-        transform: scale(1.3);
+    .congelado1 {
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 
-    .congelado1:hover {
-        transform: scale(1.3);
+    .congelado2 {
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 
-    .congelado2:hover {
-        transform: scale(1.3);
+    .congelado3 {
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 
-    .congelado3:hover {
-        transform: scale(1.3);
-    }
-
-    .congelado4:hover {
-        transform: scale(1.3);
+    .congelado4 {
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 
     .circulo-producto-flex {
@@ -110,10 +113,12 @@ main {
         background-color: rgba(116, 0, 116, 0.7);
     }
 
-    section {
-        article {
-            >h3 {
-                text-align: center;
+    main {
+        section {
+            article {
+                >h3 {
+                    text-align: center;
+                }
             }
         }
     }
@@ -137,4 +142,18 @@ main {
         justify-content: space-evenly;
 
     }
+
+    .producto-titulo-flex {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: rgb(231, 234, 236);
+        }
+    }
+
 }

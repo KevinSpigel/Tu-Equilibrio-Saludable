@@ -3,7 +3,7 @@
 
 @media (min-width: 481px) and (max-width: 1023px) {
 
-/*Header*/
+    /*Header*/
     .header-flex {
         display: flex;
         flex-flow: row wrap;
@@ -13,7 +13,7 @@
         background-color: #DFDFDE;
     }
 
-/*Menu*/
+    /*Menu*/
 
     .menu-flex-desk {
         display: none;
@@ -57,7 +57,7 @@
         padding: 0px;
     }
 
-/*Footer*/
+    /*Footer*/
 
     .footer-flex {
         display: flex;
@@ -113,9 +113,9 @@
     }
 
 
-/*CUESTIONES PARTICULARES DEL "INDEX"*/
+    /*CUESTIONES PARTICULARES DEL "INDEX"*/
 
-/*Main*/
+    /*Main*/
 
     main {
         .section-mision-flex {
@@ -158,27 +158,28 @@
 
 
 
-/*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
+    /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
 
-/*Main*/
+    /*Main*/
+
+
+    .producto-flex {
+        div {
+            h2 {
+                font-size: 2.5em;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .producto-titulo-flex {
+        h3 {
+            font-size: 1.2em;
+            border-radius: 50%;
+        }
+    }
 
     main {
-        .producto-flex {
-            div {
-                h2 {
-                    font-size: 2.5em;
-                    font-weight: bolder;
-                }
-            }
-        }
-
-        .producto-titulo-flex {
-            h3 {
-                font-size: 1.2em;
-                border-radius: 50%;
-            }
-        }
-
         section {
             article {
                 >h3 {
@@ -347,7 +348,7 @@ main {
 
 @media (max-width: 480px) {
 
-/*Header*/
+    /*Header*/
 
     header {
         p {
@@ -368,7 +369,7 @@ main {
         }
     }
 
-/*Menu*/ 
+    /*Menu*/
 
     .menu-flex-desk {
         display: none;
@@ -382,14 +383,14 @@ main {
         margin-top: 0px;
     }
 
-/*Footer*/
+    /*Footer*/
 
     .div-newsletter-flex {
         display: none;
     }
 
 
-/*CUESTIONES PARTICULARES DEL "INDEX"*/
+    /*CUESTIONES PARTICULARES DEL "INDEX"*/
 
     main {
         .section-mision-flex {
@@ -420,7 +421,7 @@ main {
     }
 
 
-/*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
+    /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
 
     main {
 
@@ -502,7 +503,7 @@ main {
         }
     }
 
-/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
+    /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
 
     main {
         .hero {
@@ -546,7 +547,7 @@ main {
         }
     }
 
-/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
+    /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
 
     main {
         .main-img-tip {
@@ -575,7 +576,7 @@ main {
     }
 
 
-/*CUESTIONES PARTICULARES DE "CONTACTO"*/
+    /*CUESTIONES PARTICULARES DE "CONTACTO"*/
 
     main {
         .div-contacto-conocenos-flex {

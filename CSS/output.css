@@ -427,7 +427,7 @@ main .a-hero:hover {
   color: rgb(116, 0, 116);
   background-color: rgb(231, 234, 236);
 }
-main .section-img-founders {
+main section .section-img-founders {
   box-shadow: 2px 2px 2px grey;
   border-radius: 50%;
   width: 300px;
@@ -438,7 +438,7 @@ main .section-img-founders {
   background-repeat: no-repeat;
   background-size: cover;
 }
-main .section-img-founders-flex {
+main section .section-img-founders-flex {
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
@@ -737,11 +737,11 @@ main .botones-formulario {
   }
   /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
   /*Main*/
-  main .producto-flex div h2 {
+  .producto-flex div h2 {
     font-size: 2.5em;
     font-weight: bolder;
   }
-  main .producto-titulo-flex h3 {
+  .producto-titulo-flex h3 {
     font-size: 1.2em;
     border-radius: 50%;
   }

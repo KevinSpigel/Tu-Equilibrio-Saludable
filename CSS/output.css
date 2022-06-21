@@ -224,40 +224,46 @@ footer {
 main h2 {
   text-align: center;
 }
-main .main-flex {
+
+.main-flex {
   display: flex;
   flex-flow: column;
 }
-main .section-mision-flex {
+
+.section-mision-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
 }
-main .section-mision-flex div {
+.section-mision-flex div {
   margin: 40px;
 }
-main .section-cambio-flex {
+
+.section-cambio-flex {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
 }
-main .section-cambio-flex div {
+.section-cambio-flex div {
   margin: 40px;
 }
-main section article img {
+
+section article img {
   box-shadow: 2px 2px 2px grey;
 }
-main .main-img-primera {
+
+.main-img-primera {
   border-radius: 5%;
   width: 600px;
   height: 400px;
   margin-bottom: 40px;
 }
-main .main-img-segunda {
+
+.main-img-segunda {
   border-radius: 5%;
   width: 600px;
   height: 500px;
@@ -302,6 +308,17 @@ footer {
   font-weight: bolder;
   margin-bottom: -50px;
 }
+.producto-flex .producto-titulo-flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.producto-flex .producto-titulo-flex h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(231, 234, 236);
+}
 .producto-flex .hamburguesa1:hover {
   transform: scale(1.3);
 }
@@ -311,11 +328,9 @@ footer {
 }
 .producto-flex .hamburguesa3:hover {
   transform: scale(1.3);
-  margin-top: 30px;
 }
 .producto-flex .hamburguesa4:hover {
   transform: scale(1.3);
-  margin-top: 30px;
 }
 .producto-flex .congelado1:hover {
   transform: scale(1.3);
@@ -358,19 +373,30 @@ footer {
   flex-flow: row nowrap;
   justify-content: space-evenly;
 }
-.producto-flex .producto-titulo-flex {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-.producto-flex .producto-titulo-flex h3 {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: rgb(231, 234, 236);
-}
 
 /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+main .campo-obligatorio-p {
+  font-style: italic;
+  font-size: small;
+}
+main ul {
+  font-size: 1em;
+}
+main h3 {
+  font-size: 1.5em;
+}
+
+#form-order {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-left: 20px;
+  width: 55%;
+}
+#form-order p {
+  font-size: 1em;
+}
+
 #grid-areas-contacto {
   display: grid;
   grid-template-areas: "header" "menu" "main" "footer";
@@ -395,49 +421,44 @@ footer {
   grid-area: footer;
 }
 
-main .campo-obligatorio-p {
-  font-style: italic;
-  font-size: small;
-}
-main ul {
-  font-size: 1em;
-}
-main h3 {
-  font-size: 1.5em;
-}
-main .div-contacto-conocenos-flex {
+.div-contacto-conocenos-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-main .div-contacto-mail-conocenos-flex {
+
+.div-contacto-mail-conocenos-flex {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 }
-main .div-contacto-wp-conocenos-flex {
+
+.div-contacto-wp-conocenos-flex {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   margin-left: -153px;
 }
-main .div-nuestros-flex {
+
+.div-nuestros-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
-main .donde-estamos-flex {
+
+.donde-estamos-flex {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-main .iframe-flex {
+
+.iframe-flex {
   display: flex;
   flex-flow: row;
   border-radius: 5%;
@@ -449,30 +470,22 @@ main .iframe-flex {
   align-items: center;
   transition: 2s;
 }
-main .iframe-flex:hover {
+.iframe-flex:hover {
   border-radius: 5%;
   box-shadow: 2px 2px 2px grey;
   border-color: 5px solid brown;
   width: 80%;
   height: 70vh;
 }
-main #form-order {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  margin-left: 20px;
-  width: 55%;
-}
-main #form-order p {
-  font-size: 1em;
-}
-main .div-botones-formulario {
+
+.div-botones-formulario {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
 }
-main .botones-formulario {
+
+.botones-formulario {
   margin: 10px;
 }
 
@@ -502,7 +515,7 @@ footer {
 }
 
 /*Main*/
-main .hero {
+.hero {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -515,14 +528,15 @@ main .hero {
   background-size: cover;
   background-attachment: fixed;
 }
-main .hero h2 {
+.hero h2 {
   color: white;
   font-size: 60px;
   font-weight: 900;
   color: rgb(231, 234, 236);
   margin-bottom: 10px;
 }
-main .hero .a-hero {
+
+.a-hero {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: bold;
@@ -531,11 +545,12 @@ main .hero .a-hero {
   border-radius: 10%;
   padding: 5px;
 }
-main .hero .a-hero:hover {
+.a-hero:hover {
   color: rgb(116, 0, 116);
   background-color: rgb(231, 234, 236);
 }
-main .section-img-founders {
+
+.section-img-founders {
   box-shadow: 2px 2px 2px grey;
   border-radius: 50%;
   width: 300px;
@@ -592,31 +607,34 @@ footer {
   display: flex;
   flex-flow: column;
 }
-.main-tip-flex .section-tip1-flex {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 20px;
-}
-.main-tip-flex .section-tip1-flex div {
-  margin: 40px;
-}
-.main-tip-flex .main-img-tip {
+
+.main-img-tip {
   border-radius: 5%;
   width: 600px;
   height: 450px;
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.main-tip-flex .section-tip2-flex {
+
+.section-tip1-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.section-tip1-flex div {
+  margin: 40px;
+}
+
+.section-tip2-flex {
   display: flex;
   flex-flow: row-reverse nowrap;
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
 }
-.main-tip-flex .section-tip2-flex div {
+.section-tip2-flex div {
   margin: 40px;
 }
 
@@ -709,32 +727,32 @@ footer {
   }
   /*CUESTIONES PARTICULARES DEL "INDEX"*/
   /*Main*/
-  main .section-mision-flex {
+  .section-mision-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-mision-flex div {
+  .section-mision-flex div {
     margin: 40px;
   }
-  main .section-cambio-flex {
+  .section-cambio-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-cambio-flex div {
+  .section-cambio-flex div {
     margin: 40px;
   }
-  main .main-img-primera {
+  .main-img-primera {
     width: 450px;
     height: 300px;
     margin-bottom: 40px;
   }
-  main .main-img-segunda {
+  .main-img-segunda {
     width: 400px;
     height: 400px;
     margin-bottom: 40px;
@@ -776,48 +794,9 @@ footer {
     justify-content: space-around;
   }
 }
-/*CUESTIONES PARTICULARES DE "CONTACTO"*/
-main {
-  /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
-  /*Main*/
-  /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-}
-main .div-contacto-conocenos-flex {
-  flex-flow: column wrap;
-}
-main .div-contacto-mail-conocenos-flex {
-  flex-flow: row wrap;
-}
-main .div-contacto-wp-conocenos-flex {
-  flex-flow: row wrap;
-  margin-bottom: 30px;
-}
-main .div-nuestros-flex {
-  flex-flow: column wrap;
-  margin-bottom: 30px;
-}
-main .donde-estamos-flex {
-  margin-bottom: 30px;
-}
-main .iframe-flex {
-  width: 250px;
-  height: 150px;
-}
-main .iframe-flex:hover {
-  border-radius: 5%;
-  box-shadow: 2px 2px 2px grey;
-  border-color: 5px solid brown;
-  width: 80%;
-  height: 70vh;
-}
-main #form-order p {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  text-align: center;
-  font-size: 1em;
-}
-main main .hero {
+/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
+/*Main*/
+.hero {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -830,46 +809,97 @@ main main .hero {
   background-size: cover;
   background-attachment: fixed;
 }
-main main .hero h2 {
+.hero h2 {
   color: white;
   font-size: 40px;
 }
-main main .a-hero {
+
+.a-hero {
   font-size: 1em;
 }
-main main .section-img-founders {
+
+.section-img-founders {
   width: 200px;
   height: 200px;
 }
-main main .section-img-founders-flex {
+
+.section-img-founders-flex {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
 }
-main main .div-texto-presentacion {
+
+.div-texto-presentacion {
   text-align: center;
 }
-main main .main-img-tip {
+
+/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
+.main-img-tip {
   border-radius: 5%;
   width: 400px;
   height: 300px;
   margin-bottom: 40px;
   margin-top: 20px;
 }
-main main .section-tip1-flex {
+
+.section-tip1-flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-main main .section-tip2-flex {
+
+.section-tip2-flex {
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/*CUESTIONES PARTICULARES DE "CONTACTO"*/
+.div-contacto-conocenos-flex {
+  flex-flow: column wrap;
+}
+
+.div-contacto-mail-conocenos-flex {
+  flex-flow: row wrap;
+}
+
+.div-contacto-wp-conocenos-flex {
+  flex-flow: row wrap;
+  margin-bottom: 30px;
+}
+
+.div-nuestros-flex {
+  flex-flow: column wrap;
+  margin-bottom: 30px;
+}
+
+.donde-estamos-flex {
+  margin-bottom: 30px;
+}
+
+.iframe-flex {
+  width: 250px;
+  height: 150px;
+}
+.iframe-flex:hover {
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px grey;
+  border-color: 5px solid brown;
+  width: 80%;
+  height: 70vh;
+}
+
+#form-order p {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
 }
 
 /*SMARTPHONE*/
@@ -881,7 +911,7 @@ main main .section-tip2-flex {
   header h1 {
     font-size: 3em;
   }
-  header .header-flex {
+  .header-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -904,116 +934,84 @@ main main .section-tip2-flex {
     display: none;
   }
   /*CUESTIONES PARTICULARES DEL "INDEX"*/
-  main .section-mision-flex {
+  .section-mision-flex {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-cambio-flex {
+  .section-cambio-flex {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .main-img-primera {
+  .main-img-primera {
     width: 100%;
     margin-bottom: 40px;
   }
-  main .main-img-segunda {
+  .main-img-segunda {
     width: 100%;
     margin-bottom: 40px;
   }
   /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
-  main .producto-flex div h2 {
+  .producto-flex div h2 {
     font-size: 2.5em;
     font-weight: bolder;
   }
-  main section article > h3 {
+  section article > h3 {
     text-align: center;
   }
-  main .hamburguesa1:hover {
+  .hamburguesa1:hover {
     transform: none;
   }
-  main .hamburguesa2:hover {
+  .hamburguesa2:hover {
     transform: none;
   }
-  main .hamburguesa3:hover {
+  .hamburguesa3:hover {
     transform: none;
   }
-  main .hamburguesa4:hover {
+  .hamburguesa4:hover {
     transform: none;
   }
-  main .congelado1:hover {
+  .congelado1:hover {
     transform: none;
   }
-  main .congelado2:hover {
+  .congelado2:hover {
     transform: none;
   }
-  main .congelado3:hover {
+  .congelado3:hover {
     transform: none;
   }
-  main .congelado4:hover {
+  .congelado4:hover {
     transform: none;
   }
-  main .productos-img {
+  .productos-img {
     width: 100px;
     height: 100px;
     border-radius: 5%;
   }
-  main .producto-flex {
+  .producto-flex {
     display: flex;
     flex-flow: column;
     justify-content: center;
     row-gap: 50px;
     border: solid 2px black;
   }
-  main .productos-hamburguesas-flex {
+  .productos-hamburguesas-flex {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
   }
-  main .productos-congelados-flex {
+  .productos-congelados-flex {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
-  }
-  /*CUESTIONES PARTICULARES DE "CONTACTO"*/
-  main .div-contacto-conocenos-flex {
-    flex-flow: column wrap;
-  }
-  main .div-contacto-mail-conocenos-flex {
-    flex-flow: row wrap;
-  }
-  main .div-contacto-wp-conocenos-flex {
-    flex-flow: row wrap;
-    margin-bottom: 30px;
-  }
-  main .div-nuestros-flex {
-    flex-flow: column wrap;
-    margin-bottom: 30px;
-  }
-  main .donde-estamos-flex {
-    margin-bottom: 30px;
-  }
-  main .iframe-flex {
-    width: 250px;
-    height: 150px;
-  }
-  main .iframe-flex:hover {
-    display: none;
-  }
-  main #form-order p {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;
-    font-size: 1em;
   }
   /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
-  main .hero {
+  .hero {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -1026,47 +1024,79 @@ main main .section-tip2-flex {
     background-size: cover;
     background-attachment: fixed;
   }
-  main .hero h2 {
+  .hero h2 {
     color: white;
     font-size: 40px;
   }
-  main .a-hero {
+  .a-hero {
     font-size: 1em;
   }
-  main .section-img-founders {
+  .section-img-founders {
     width: 200px;
     height: 200px;
   }
-  main .section-img-founders-flex {
+  .section-img-founders-flex {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
   }
-  main .div-texto-presentacion {
+  .div-texto-presentacion {
     text-align: center;
   }
   /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-  main .main-img-tip {
+  .main-img-tip {
     border-radius: 5%;
     width: 400px;
     height: 300px;
     margin-bottom: 40px;
     margin-top: 20px;
   }
-  main .section-tip1-flex {
+  .section-tip1-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  main .section-tip2-flex {
+  .section-tip2-flex {
     display: flex;
     flex-flow: row-reverse wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+  .div-contacto-conocenos-flex {
+    flex-flow: column wrap;
+  }
+  .div-contacto-mail-conocenos-flex {
+    flex-flow: row wrap;
+  }
+  .div-contacto-wp-conocenos-flex {
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+  }
+  .div-nuestros-flex {
+    flex-flow: column wrap;
+    margin-bottom: 30px;
+  }
+  .donde-estamos-flex {
+    margin-bottom: 30px;
+  }
+  .iframe-flex {
+    width: 250px;
+    height: 150px;
+  }
+  .iframe-flex:hover {
+    display: none;
+  }
+  #form-order p {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
   }
 }
 

@@ -1,33 +1,5 @@
 /*CUESTIONES PARTICULARES DE "CONTACTO"*/
 
-#grid-areas-contacto {
-    display: grid;
-    grid-template-areas:
-        "header"
-        "menu"
-        "main"
-        "footer";
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
-    grid-row-gap: 20px;
-}
-
-header {
-    grid-area: header;
-}
-
-nav {
-    grid-area: menu;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
 
 main {
     .campo-obligatorio-p {
@@ -36,11 +8,54 @@ main {
     }
 
     ul {
-        font-size: 1em
+        font-size: 1em;
     }
 
     h3 {
-        font-size: 1.5em
+        font-size: 1.5em;
+    }
+}
+
+
+    #form-order {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin-left: 20px;
+        width: 55%;
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+
+    #grid-areas-contacto {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "menu"
+            "main"
+            "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 2fr 1fr;
+        grid-row-gap: 20px;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: menu;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
     }
 
 
@@ -102,17 +117,6 @@ main {
         }
     }
 
-    #form-order {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        margin-left: 20px;
-        width: 55%;
-
-        p {
-            font-size: 1em;
-        }
-    }
 
     .div-botones-formulario {
         display: flex;
@@ -124,4 +128,3 @@ main {
     .botones-formulario {
         margin: 10px;
     }
-}

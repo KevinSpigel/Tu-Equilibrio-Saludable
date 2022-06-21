@@ -31,7 +31,7 @@ footer {
 
 /*Main*/
 
-main {
+
     .hero {
         display: flex;
         flex-flow: column;
@@ -52,22 +52,21 @@ main {
             color: rgb(231, 234, 236);
             margin-bottom: 10px;
         }
+    }
 
-        .a-hero {
-            text-decoration: none;
-            font-size: 1.3em;
-            font-weight: bold;
-            color: rgb(231, 234, 236);
-            background-color: rgba(116, 0, 116, 0.7);
-            border-radius: 10%;
-            padding: 5px;
+    .a-hero {
+        text-decoration: none;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: rgb(231, 234, 236);
+        background-color: rgba(116, 0, 116, 0.7);
+        border-radius: 10%;
+        padding: 5px;
 
-            &:hover {
-                color: rgb(116, 0, 116);
-                background-color: rgb(231, 234, 236);
-            }
+        &:hover {
+            color: rgb(116, 0, 116);
+            background-color: rgb(231, 234, 236);
         }
-    
     }
 
         .section-img-founders {
@@ -81,7 +80,7 @@ main {
             background-repeat: no-repeat;
             background-size: cover;
         }
-    }
+    
 
         .section-img-founders-flex {
             display: flex;

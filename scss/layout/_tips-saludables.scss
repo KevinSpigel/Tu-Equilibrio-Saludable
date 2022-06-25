@@ -39,29 +39,31 @@ footer {
 .main-tip-flex {
     display: flex;
     flex-flow: column;
+
     .section-tip1-flex {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
         margin-right: 20px;
-    
+
         div {
             margin: 40px;
         }
     }
-    
+
     .section-tip2-flex {
         display: flex;
         flex-flow: row-reverse nowrap;
         justify-content: space-between;
         align-items: center;
         margin-left: 20px;
-    
+
         div {
             margin: 40px;
         }
     }
+
     .main-img-tip {
         border-radius: 5%;
         width: 600px;
@@ -70,6 +72,3 @@ footer {
         margin-top: 20px;
     }
 }
-
-
-

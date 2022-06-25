@@ -32,64 +32,64 @@ footer {
 /*Main*/
 
 
-    .hero {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: calc(100vh - 200px);
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+.hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
-        h2 {
-            color: white;
-            font-size: 60px;
-            font-weight: 900;
-            color: rgb(231, 234, 236);
-            margin-bottom: 10px;
-        }
-    }
-
-    .a-hero {
-        text-decoration: none;
-        font-size: 1.3em;
-        font-weight: bold;
+    h2 {
+        color: white;
+        font-size: 60px;
+        font-weight: 900;
         color: rgb(231, 234, 236);
-        background-color: rgba(116, 0, 116, 0.7);
-        border-radius: 10%;
-        padding: 5px;
-
-        &:hover {
-            color: rgb(116, 0, 116);
-            background-color: rgb(231, 234, 236);
-        }
+        margin-bottom: 10px;
     }
+}
 
-        .section-img-founders {
-            box-shadow: 2px 2px 2px grey;
-            border-radius: 50%;
-            width: 300px;
-            height: 225px;
-            margin-top: 40px;
-            margin-bottom: 40px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    
+.a-hero {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(231, 234, 236);
+    background-color: rgba(116, 0, 116, 0.7);
+    border-radius: 10%;
+    padding: 5px;
 
-        .section-img-founders-flex {
-            display: flex;
-            flex-flow: row;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-    
-
-    .div-texto-presentacion {
-        text-align: center;
+    &:hover {
+        color: rgb(116, 0, 116);
+        background-color: rgb(231, 234, 236);
     }
+}
+
+.section-img-founders {
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 50%;
+    width: 300px;
+    height: 225px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-img-founders-flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.div-texto-presentacion {
+    text-align: center;
+}

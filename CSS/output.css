@@ -301,7 +301,6 @@ footer {
   flex-flow: column;
   justify-content: center;
   row-gap: 50px;
-  border: solid 2px black;
 }
 .producto-flex div h2 {
   font-size: 2.5em;
@@ -771,7 +770,6 @@ footer {
     flex-flow: column;
     justify-content: center;
     row-gap: 50px;
-    border: solid 2px black;
   }
   .productos-hamburguesas-flex {
     display: flex;
@@ -901,8 +899,28 @@ footer {
   .menu-flex-tablet {
     display: block;
   }
+  .a-hero {
+    border-radius: 0;
+    text-align: center;
+  }
+  .border-radius {
+    border-radius: 15%;
+  }
   nav {
     margin-top: 0px;
+  }
+  nav div button::selection {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(231, 234, 236);
+    background-color: rgba(116, 0, 116, 0.7);
+  }
+  .btn {
+    padding: 5px 25px;
+  }
+  .dropdown-menu {
+    padding: 0px;
   }
   /*Footer*/
   .div-newsletter-flex {
@@ -973,7 +991,6 @@ footer {
     flex-flow: column;
     justify-content: center;
     row-gap: 50px;
-    border: solid 2px black;
   }
   .productos-hamburguesas-flex {
     display: flex;

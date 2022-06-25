@@ -1,7 +1,6 @@
 /*TABLET*/
 
-@media (min-width: 481px) and (max-width: 1023px) 
-{
+@media (min-width: 481px) and (max-width: 1023px) {
 
     /*Header*/
     .header-flex {
@@ -198,7 +197,6 @@
         flex-flow: column;
         justify-content: center;
         row-gap: 50px;
-        border: solid 2px black;
     }
 
     .productos-hamburguesas-flex {
@@ -215,127 +213,127 @@
 
 
 
-/*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
+    /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
 
-/*Main*/
+    /*Main*/
 
-.hero {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: calc(100vh - 273px);
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-    h2 {
-        color: white;
-        font-size: 40px;
-    }
-}
-
-.a-hero {
-    font-size: 1em;
-}
-
-.section-img-founders {
-    width: 200px;
-    height: 200px;
-}
-
-.section-img-founders-flex {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.div-texto-presentacion {
-    text-align: center;
-}
-
-
-/*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-
-.main-tip-flex{
-.section-tip1-flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.section-tip2-flex {
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.main-img-tip {
-    border-radius: 5%;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
-}
-
-/*CUESTIONES PARTICULARES DE "CONTACTO"*/
-
-
-.div-contacto-conocenos-flex {
-    flex-flow: column wrap;
-}
-
-.div-contacto-mail-conocenos-flex {
-    flex-flow: row wrap;
-}
-
-.div-contacto-wp-conocenos-flex {
-    flex-flow: row wrap;
-    margin-bottom: 30px;
-}
-
-.div-nuestros-flex {
-    flex-flow: column wrap;
-    margin-bottom: 30px;
-}
-
-.donde-estamos-flex {
-    margin-bottom: 30px;
-}
-
-.iframe-flex {
-    width: 250px;
-    height: 150px;
-
-    &:hover {
-        border-radius: 5%;
-        box-shadow: 2px 2px 2px grey;
-        border-color: 5px solid brown;
-        width: 80%;
-        height: 70vh;
-    }
-}
-
-
-#form-order {
-    p {
+    .hero {
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column;
         justify-content: center;
-        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 273px);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/hero-quienes-somos.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+        h2 {
+            color: white;
+            font-size: 40px;
+        }
+    }
+
+    .a-hero {
         font-size: 1em;
     }
 
-}
+    .section-img-founders {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-img-founders-flex {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .div-texto-presentacion {
+        text-align: center;
+    }
+
+
+    /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
+
+    .main-tip-flex {
+        .section-tip1-flex {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section-tip2-flex {
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-img-tip {
+            border-radius: 5%;
+            width: 400px;
+            height: 300px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+    }
+
+    /*CUESTIONES PARTICULARES DE "CONTACTO"*/
+
+
+    .div-contacto-conocenos-flex {
+        flex-flow: column wrap;
+    }
+
+    .div-contacto-mail-conocenos-flex {
+        flex-flow: row wrap;
+    }
+
+    .div-contacto-wp-conocenos-flex {
+        flex-flow: row wrap;
+        margin-bottom: 30px;
+    }
+
+    .div-nuestros-flex {
+        flex-flow: column wrap;
+        margin-bottom: 30px;
+    }
+
+    .donde-estamos-flex {
+        margin-bottom: 30px;
+    }
+
+    .iframe-flex {
+        width: 250px;
+        height: 150px;
+
+        &:hover {
+            border-radius: 5%;
+            box-shadow: 2px 2px 2px grey;
+            border-color: 5px solid brown;
+            width: 80%;
+            height: 70vh;
+        }
+    }
+
+
+    #form-order {
+        p {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            text-align: center;
+            font-size: 1em;
+        }
+
+    }
 
 }
 
@@ -375,8 +373,37 @@
         display: block;
     }
 
+
+    .a-hero {
+        border-radius: 0;
+        text-align: center;
+    }
+
+    .border-radius {
+        border-radius: 15%;
+    }
+
     nav {
         margin-top: 0px;
+        div {
+            button {
+                &::selection {
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    color: rgb(231, 234, 236);
+                    background-color: rgba(116, 0, 116, 0.7);
+                }
+            }
+        }
+    }
+
+    .btn {
+        padding: 5px 25px;
+    }
+
+    .dropdown-menu {
+        padding: 0px;
     }
 
     /*Footer*/
@@ -480,7 +507,6 @@
         flex-flow: column;
         justify-content: center;
         row-gap: 50px;
-        border: solid 2px black;
     }
 
     .productos-hamburguesas-flex {

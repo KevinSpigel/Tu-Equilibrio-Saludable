@@ -1,6 +1,7 @@
 /*TABLET*/
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 1023px) 
+{
 
     /*Header*/
     .header-flex {
@@ -211,7 +212,7 @@
         flex-flow: row wrap;
         justify-content: space-around;
     }
-}
+
 
 
 /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
@@ -260,14 +261,7 @@
 
 /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
 
-.main-img-tip {
-    border-radius: 5%;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
-
+.main-tip-flex{
 .section-tip1-flex {
     display: flex;
     flex-flow: row wrap;
@@ -284,6 +278,14 @@
     text-align: center;
 }
 
+.main-img-tip {
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+}
 
 /*CUESTIONES PARTICULARES DE "CONTACTO"*/
 
@@ -335,6 +337,7 @@
 
 }
 
+}
 
 /*SMARTPHONE*/
 

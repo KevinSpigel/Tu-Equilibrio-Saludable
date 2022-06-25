@@ -67,23 +67,19 @@ footer {
     }
 
     .hamburguesa2 {
+        @extend .hamburguesa1;
+
         &:hover {
-            transform: scale(1.3);
             margin-top: 30px;
         }
     }
 
     .hamburguesa3 {
-        &:hover {
-            transform: scale(1.3);
-
-        }
+        @extend .hamburguesa1;
     }
 
     .hamburguesa4 {
-        &:hover {
-            transform: scale(1.3);
-        }
+        @extend .hamburguesa1;
     }
 
     .congelado1 {
@@ -93,21 +89,15 @@ footer {
     }
 
     .congelado2 {
-        &:hover {
-            transform: scale(1.3);
-        }
+        @extend .congelado1;
     }
 
     .congelado3 {
-        &:hover {
-            transform: scale(1.3);
-        }
+        @extend .congelado1;
     }
 
     .congelado4 {
-        &:hover {
-            transform: scale(1.3);
-        }
+        @extend .congelado1;
     }
 
     .circulo-producto-flex {

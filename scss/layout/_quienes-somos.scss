@@ -4,21 +4,16 @@
     display: grid;
     grid-template-areas:
         "header"
-        "menu"
         "main"
         "footer";
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-row-gap: 0px;
 }
 
 
 header {
     grid-area: header;
-}
-
-nav {
-    grid-area: menu;
 }
 
 main {

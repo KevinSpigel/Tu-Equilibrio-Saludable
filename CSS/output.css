@@ -198,18 +198,14 @@ footer {
 /*CUESTIONES PARTICULARES DEL "INDEX"*/
 #grid-areas-index {
   display: grid;
-  grid-template-areas: "header" "menu " "main" "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: 1;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-row-gap: 15px;
 }
 
 header {
   grid-area: header;
-}
-
-nav {
-  grid-area: menu;
 }
 
 main {
@@ -273,18 +269,14 @@ section article img {
 /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
 #grid-areas-productos {
   display: grid;
-  grid-template-areas: "header" "menu" "main" "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-row-gap: 0px;
 }
 
 header {
   grid-area: header;
-}
-
-nav {
-  grid-area: menu;
 }
 
 main {
@@ -391,18 +383,14 @@ main h3 {
 
 #grid-areas-contacto {
   display: grid;
-  grid-template-areas: "header" "menu" "main" "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-row-gap: 20px;
 }
 
 header {
   grid-area: header;
-}
-
-nav {
-  grid-area: menu;
 }
 
 main {
@@ -484,18 +472,14 @@ footer {
 /*CUESTIONES PARTICULARES DE "¿QUIÉNES SOMOS?"*/
 #grid-areas-quienes-somos {
   display: grid;
-  grid-template-areas: "header" "menu" "main" "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-row-gap: 0px;
 }
 
 header {
   grid-area: header;
-}
-
-nav {
-  grid-area: menu;
 }
 
 main {
@@ -569,18 +553,14 @@ footer {
 /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
 #grid-areas-tips {
   display: grid;
-  grid-template-areas: "header" "menu " "main" "footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: 1;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-row-gap: 15px;
 }
 
 header {
   grid-area: header;
-}
-
-nav {
-  grid-area: menu;
 }
 
 main {

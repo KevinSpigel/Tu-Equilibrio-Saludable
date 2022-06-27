@@ -118,11 +118,29 @@ main {
 }
 
 
+
 .productos-img {
     width: 200px;
     height: 200px;
     border-radius: 5%;
 }
+
+
+// Prueba MAPS
+
+// $img: (width: 200px,
+//     height:200px,
+//     border-radius: 5%,
+// );
+
+
+//     @each $style,$value in $img {
+//         .productos-img {
+//             #{$style}: $value;
+//         }
+//     }
+
+
 
 .productos-hamburguesas-flex {
     display: flex;
@@ -136,3 +154,20 @@ main {
     justify-content: space-evenly;
 
 }
+
+//Prueba MIXIN sin parametros
+
+// @mixin flex {
+//     display: flex;
+//     flex-flow: row nowrap;
+//     justify-content: space-evenly;
+// }
+
+// .productos-hamburguesas-flex {
+//     @include flex;
+// }
+
+
+// .productos-congelados-flex {
+//     @include flex;
+// }

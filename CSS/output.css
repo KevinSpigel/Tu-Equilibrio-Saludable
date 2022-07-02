@@ -359,6 +359,7 @@ main section article > h3 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 /*CUESTIONES PARTICULARES DE "CONTACTO"*/
@@ -535,7 +536,7 @@ footer {
 .section-img-founders {
   box-shadow: 2px 2px 2px grey;
   border-radius: 50%;
-  width: 300px;
+  width: 250px;
   height: 225px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -658,7 +659,7 @@ footer {
   /*Footer*/
   .footer-flex {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #DFDFDE;
@@ -929,12 +930,15 @@ footer {
     text-align: center;
   }
   .main-img-primera {
-    width: 100%;
+    width: 450px;
+    height: 300px;
     margin-bottom: 40px;
   }
   .main-img-segunda {
-    width: 100%;
+    width: 400px;
+    height: 400px;
     margin-bottom: 40px;
+    margin-right: 0px;
   }
   /*CUESTIONES PARTICULARES DE "PRODUCTOS"*/
   .producto-flex div h2 {
@@ -998,34 +1002,34 @@ footer {
   }
   .section-img-founders-flex {
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: space-around;
   }
   .div-texto-presentacion {
     text-align: center;
   }
   /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
-  .main-img-tip {
-    border-radius: 5%;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-  }
-  .section-tip1-flex {
+  .main-tip-flex .section-tip1-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .section-tip2-flex {
+  .main-tip-flex .section-tip2-flex {
     display: flex;
     flex-flow: row-reverse wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .main-tip-flex .main-img-tip {
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
   /*CUESTIONES PARTICULARES DE "CONTACTO"*/
   .div-contacto-conocenos-flex {

@@ -60,7 +60,7 @@
 
     .footer-flex {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-around;
         align-items: center;
         background-color: #DFDFDE;
@@ -433,14 +433,27 @@
         text-align: center;
     }
 
+    // .main-img-primera {
+    //     width: 100%;
+    //     margin-bottom: 40px;
+    // }
+
+    // .main-img-segunda {
+    //     width: 100%;
+    //     margin-bottom: 40px;
+    // }
+
     .main-img-primera {
-        width: 100%;
+        width: 450px;
+        height: 300px;
         margin-bottom: 40px;
     }
 
     .main-img-segunda {
-        width: 100%;
+        width: 400px;
+        height: 400px;
         margin-bottom: 40px;
+        margin-right: 0px;
     }
 
 
@@ -533,9 +546,9 @@
 
     .section-img-founders-flex {
         display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        align-items: center;
+        flex-flow: column;
+        justify-content: center;
+        align-items: space-around;
     }
 
     .div-texto-presentacion {
@@ -545,28 +558,32 @@
     /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
 
 
-    .main-img-tip {
-        border-radius: 5%;
-        width: 400px;
-        height: 300px;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
+    .main-tip-flex {
 
-    .section-tip1-flex {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 
-    .section-tip2-flex {
-        display: flex;
-        flex-flow: row-reverse wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        .section-tip1-flex {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section-tip2-flex {
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-img-tip {
+            border-radius: 5%;
+            width: 400px;
+            height: 300px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
     }
 
 

@@ -555,6 +555,7 @@ footer {
 
 .div-texto-presentacion {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 /*CUESTIONES PARTICULARES DE "TIPS SALUDABLES"*/
@@ -596,6 +597,11 @@ footer {
 }
 .main-tip-flex .section-tip1-flex div {
   margin: 40px;
+}
+.main-tip-flex .section-tip1-flex ul {
+  list-style: none;
+  margin-top: 5px;
+  font-weight: bold;
 }
 .main-tip-flex .section-tip2-flex {
   display: flex;

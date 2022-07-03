@@ -46,10 +46,17 @@ footer {
             margin: 40px;
         }
 
-        ul{
-            list-style: none;
-            margin-top: 5px;
-            font-weight: bold;
+        .lista-habito {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+
+            li {
+                list-style: none;
+                margin-top: 5px;
+                line-height: 1.8;
+                font-size: 1.2rem;
+            }
         }
     }
 

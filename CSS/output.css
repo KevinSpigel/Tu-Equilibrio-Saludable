@@ -598,10 +598,16 @@ footer {
 .main-tip-flex .section-tip1-flex div {
   margin: 40px;
 }
-.main-tip-flex .section-tip1-flex ul {
+.main-tip-flex .section-tip1-flex .lista-habito {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.main-tip-flex .section-tip1-flex .lista-habito li {
   list-style: none;
   margin-top: 5px;
-  font-weight: bold;
+  line-height: 1.8;
+  font-size: 1.2rem;
 }
 .main-tip-flex .section-tip2-flex {
   display: flex;

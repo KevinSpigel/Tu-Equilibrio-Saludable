@@ -732,6 +732,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-right: 0px;
   }
   .section-cambio-flex div {
     margin: 40px;
@@ -823,6 +824,11 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .main-tip-flex .section-tip1-flex .lista-habito ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
   }
   .main-tip-flex .section-tip2-flex {
     display: flex;
@@ -942,13 +948,13 @@ footer {
     text-align: center;
   }
   .main-img-primera {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     margin-bottom: 40px;
   }
   .main-img-segunda {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 40px;
     margin-right: 0px;
   }
@@ -1028,6 +1034,11 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .main-tip-flex .section-tip1-flex .lista-habito ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
   }
   .main-tip-flex .section-tip2-flex {
     display: flex;
